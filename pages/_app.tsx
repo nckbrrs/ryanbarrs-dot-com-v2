@@ -1,9 +1,10 @@
-import type { AppContext, AppInitialProps, AppProps } from 'next/app'
+import type { AppProps } from 'next/app'
 import GlobalStyles from '../styles/GlobalStyles'
 import Layout from '../components/layout'
 import { useEffect } from 'react'
+import Head from 'next/head'
 
-export default function App({ Component, pageProps }: AppProps) {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   useEffect(() => {
     // only execute all the code below in client side
     if (typeof window !== 'undefined') {
@@ -26,8 +27,13 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <Layout>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes, viewport-fit=cover"/>
+      </Head>
       <GlobalStyles />
       <Component {...pageProps} />
     </Layout>
   )
 }
+
+export default MyApp;

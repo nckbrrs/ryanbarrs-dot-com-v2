@@ -5,14 +5,7 @@ import 'twin.macro';
 const Home: React.FC<{users: any}> = ({ users }) => (
   <>
     <Head>
-      <title>Ryan Barrs / Home</title>
-      <meta charSet="utf-8"/>
-      <meta name="theme-color" content="#212121"/>
-      <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com"/>
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
-      <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes, viewport-fit=cover"/>
+      <title>Ryan Barrs / About</title>
     </Head>
     <Col tw="h-full justify-center items-center">
       <Col tw="w-full h-fit lg:h-full my-8 lg:my-20 max-w-[1300px] px-12 lg:px-20 space-y-10 lg:space-x-8 lg:flex-row">
