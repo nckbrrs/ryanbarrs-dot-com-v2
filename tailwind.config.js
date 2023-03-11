@@ -5,8 +5,8 @@ const { colors: defaultColors } = require('tailwindcss/defaultTheme')
 const colors = {
   ...defaultColors,
   ...{
-    primary: '#212121',
-    background: '#fbf6f1',
+    black: '#212121',
+    bone: '#fbf6f1',
     mtaRed: '#ee352e',
     mtaOrange: '#ff6319',
     mtaGreen: '#6cbe45',
@@ -19,7 +19,8 @@ const colors = {
 }
 
 const fontFamily = {
-  'sans': ["Helvetica Neue", "ui-sans-serif", "system-ui", "-apple-system", "Arial", "sans-serif"]
+  'sans': ["Helvetica Neue", "ui-sans-serif", "system-ui", "-apple-system", "Arial", "sans-serif"],
+  'serif': ["Vollkorn", "ui-serif", "serif"]
 }
 
 const letterSpacing = {
