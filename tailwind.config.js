@@ -7,14 +7,6 @@ const colors = {
   ...{
     black: '#212121',
     bone: '#fbf6f1',
-    mtaRed: '#ee352e',
-    mtaOrange: '#ff6319',
-    mtaGreen: '#6cbe45',
-    mtaGray: '#808183',
-    mtaYellow: '#fccc0a',
-    mtaBlue: '#0039a6',
-    mtaBrown: '#996633',
-    mtaPurple: '#b933ad',
   },
 }
 
